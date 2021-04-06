@@ -5,9 +5,15 @@ import AsyncStorage from '@react-native-community/async-storage'
 
 import Colors from '../utils/colors'
 
+<<<<<<< HEAD
 import Eventos from '../routes/rotasEventos'
 import Configs from '../routes/rotasConfig'
 import Perfil from '../pages/profile/index'
+=======
+import Eventos from '../pages/eventos/index'
+import Perfil from '../pages/profile/index'
+import Configs from '../routes/rotasConfig'
+>>>>>>> 9810e70f46d8a0ecf25960b8938889b724f8382c
 import Cevento from '../pages/adm/create/index'
 
 
@@ -21,7 +27,13 @@ export default function RotasApp() {
             const usuario = await AsyncStorage.getItem('usuario');
             const jsonUser = JSON.parse(usuario);
             setAdm(jsonUser.adm)
+<<<<<<< HEAD
         }
+=======
+            console.log(jsonUser)
+        }
+        console.log(adm)
+>>>>>>> 9810e70f46d8a0ecf25960b8938889b724f8382c
         pegarDados()
     }, [])
 

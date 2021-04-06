@@ -10,7 +10,11 @@ exports.up = function (knex) {
         table.date('data_termino').notNullable();
         table.time('hora_inicio').notNullable();
         table.time('hora_termino').notNullable();
+<<<<<<< HEAD
         table.integer('likes').defaultTo(0);
+=======
+        table.integer('likes').defaultTo(1);
+>>>>>>> 9810e70f46d8a0ecf25960b8938889b724f8382c
     })
 };
 

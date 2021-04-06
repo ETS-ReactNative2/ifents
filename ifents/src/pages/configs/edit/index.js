@@ -24,10 +24,17 @@ export default function Editar() {
     }, [])
 
     function atualizar() {
+<<<<<<< HEAD
         api.put(`/usuario/update/${id}`, {
             email: email,
             senha: senha,
         }).then(res => { alert('Usuário atualizado com sucesso!!!', navigation.navigate('Configs')) }).catch(err => { alert(err) })
+=======
+        api.put(`/usuario/${id}`, {
+            email: email,
+            senha: senha,
+        }).then(res => { navigation.navigate('Configs') }).catch(err => { console.log(err) })
+>>>>>>> 9810e70f46d8a0ecf25960b8938889b724f8382c
     }
 
     return (

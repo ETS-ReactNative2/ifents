@@ -6,11 +6,18 @@ import api from '../../services/api'
 import styles from './styles'
 
 export default function Registro() {
+<<<<<<< HEAD
     const navigation = useNavigation()
+=======
+>>>>>>> 9810e70f46d8a0ecf25960b8938889b724f8382c
     const [nome, setNome] = useState('')
     const [email, setEmail] = useState('')
     const [ra, setRa] = useState('')
     const [senha, setSenha] = useState('')
+<<<<<<< HEAD
+=======
+    const navigation = useNavigation()
+>>>>>>> 9810e70f46d8a0ecf25960b8938889b724f8382c
 
 
     function _registro() {

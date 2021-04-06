@@ -3,16 +3,23 @@ import { StyleSheet } from 'react-native'
 import Colors from '../../utils/colors'
 
 export default StyleSheet.create({
+<<<<<<< HEAD
     content: {
         flex: 1,
         padding: 15,
         backgroundColor: (Colors.white),
     },
+=======
+>>>>>>> 9810e70f46d8a0ecf25960b8938889b724f8382c
     container: {
         flex: 1,
         flexDirection: 'column',
         alignItems: 'center',
+<<<<<<< HEAD
         padding: 0,
+=======
+        padding: 15,
+>>>>>>> 9810e70f46d8a0ecf25960b8938889b724f8382c
         backgroundColor: (Colors.white),
     },
     header: {
@@ -42,7 +49,10 @@ export default StyleSheet.create({
     banner: {
         resizeMode: 'cover',
         width: '100%',
+<<<<<<< HEAD
         height: 156,
+=======
+>>>>>>> 9810e70f46d8a0ecf25960b8938889b724f8382c
         marginTop: 5,
         borderRadius: 5,
         marginBottom: 10,
@@ -54,7 +64,11 @@ export default StyleSheet.create({
     },
     info: {
         fontFamily: 'Roobert-Regular',
+<<<<<<< HEAD
         fontSize: 12,
+=======
+        fontSize: 13,
+>>>>>>> 9810e70f46d8a0ecf25960b8938889b724f8382c
         color: '#a3a3a3',
         marginTop: 5
     },
@@ -76,6 +90,7 @@ export default StyleSheet.create({
         backgroundColor: '#FF4A5F',
         flexDirection: 'row'
     },
+<<<<<<< HEAD
     botaoHidden: {
         padding: 5,
         alignItems: 'center',
@@ -85,6 +100,8 @@ export default StyleSheet.create({
         backgroundColor: '#FFF',
         flexDirection: 'row'
     },
+=======
+>>>>>>> 9810e70f46d8a0ecf25960b8938889b724f8382c
     botao: {
         padding: 10,
         alignItems: 'center',

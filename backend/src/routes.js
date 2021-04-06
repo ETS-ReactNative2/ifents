@@ -26,8 +26,11 @@ routes.get('/evento', eventController.index)
 routes.get('/evento/search/:id', eventController.buscar)
 
 routes.put('/evento/update/:id', eventController.atualizar)
+<<<<<<< HEAD
 routes.put('/evento/like/:id', eventController.likeMore)
 routes.put('/evento/unlike/:id', eventController.likeLess)
+=======
+>>>>>>> 9810e70f46d8a0ecf25960b8938889b724f8382c
 
 routes.delete('/evento/delete/:id', eventController.deletar)
 

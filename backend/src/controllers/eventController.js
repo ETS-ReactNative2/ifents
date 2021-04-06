@@ -87,6 +87,7 @@ module.exports = {
                 }
             })
     },
+<<<<<<< HEAD
 
     async likeMore(req, res) {
         const evento = await connection('evento').select('*').where('id', req.params.id).first().then(
@@ -113,4 +114,6 @@ module.exports = {
                 }
             })
     },
+=======
+>>>>>>> 9810e70f46d8a0ecf25960b8938889b724f8382c
 }
